@@ -1,0 +1,11 @@
+<h1>Data</h1>
+
+<ul>
+  <% @froms.each do |from| %>
+    <p><%= from.id %>></p>
+    <p><%= from.first_name %></p>
+    <p><%= from.last_name %></p>
+    <p><%= @article.address %></p>
+    <p><%= @article.mobile_no %></p>
+  <% end %>
+</ul>
