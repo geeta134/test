@@ -38,7 +38,7 @@ class FromsController < ApplicationController
 
   private
     def from_params
-      params.require(:from).permit(:first_name, :last_name, :address, :mobile_no)
+      params.require(:from).permit(:first_name, :last_name, :address, :mobile_no, :number)
     end
   end
 
